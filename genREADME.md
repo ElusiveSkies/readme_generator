@@ -1,7 +1,7 @@
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 # Title
 
 ## Table of Contents
+    * [Description](#Description)
     * [Installation](#Installation)
     * [Usage](#Usage)
     * [License](#License)

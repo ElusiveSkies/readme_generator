@@ -25,7 +25,8 @@ function renderLicenseBadge(responses) {
 
 // Generates markdown for README
 function generateMarkdown(responses) {
-  let contents = [`## Table of Contents`];
+  let contents = [`## Table of Contents
+    * [Description](#Description)`];
   // If used adds values to the table of contents and the body of the readme
   if (responses.install !== "") {
     contents += `

@@ -33,7 +33,9 @@ will be created at the top of the page.
 ## Installation
 
 From the integrated terminal the user will type:
-nmp i
+
+  nmp i
+
 Followed by pressing enter.
 
 ## Usage
