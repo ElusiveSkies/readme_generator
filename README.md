@@ -7,7 +7,6 @@
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [License](#License)
-- [Contributions](#Contributions)
 - [Questions](#Questions)
 
 ## Description
@@ -34,7 +33,7 @@ will be created at the top of the page.
 
 From the integrated terminal the user will type:
 
-  nmp i
+  **npm i**
 
 Followed by pressing enter.
 
@@ -45,10 +44,7 @@ Followed by pressing enter.
 ## License
 
 MIT
-
-## Contributions
-
-No contributions at this time.
+For more information please see the badge at the top of the page.
 
 ## Questions
 
