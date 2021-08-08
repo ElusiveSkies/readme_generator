@@ -23,18 +23,20 @@
       a. Contact Email
       b. Link to Github repository
 
-    After the values have been added for each section a table of contents will be generated which, when clicked will take the user to that part of the readme. Finally the appropriate license badge will be created at the top of the page.
+   After the values have been added for each section a table of contents will be generated which, 
+   when clicked will take the user to that part of the readme. Finally the appropriate license badge
+   will be created at the top of the page.
 
 
 ## Installation
 
-    From the integrated terminal the user will type:
+   From the integrated terminal the user will type:
     nmp i
-    Followed by pressing enter.
+   Followed by pressing enter.
   
 ## Usage
 
-   [!(./utils/readmeGenTest.gif)]
+   [![Video of Usage](./utils/readmeGenTest.gif)]
 
 ## License
 
@@ -46,5 +48,5 @@
 
 ## Questions
 
-   [![Contact me](elusiveskies@gmail.com)]
-   [![Elusiveskies](https://www.github.com/Elusiveskies)]
+   [[Contact me](elusiveskies@gmail.com)]
+   [[Elusiveskies](https://www.github.com/Elusiveskies)]
