@@ -26,7 +26,7 @@ function renderLicenseBadge(responses) {
 // Generates markdown for README
 function generateMarkdown(responses) {
   let contents = [`## Table of Contents`];
-// If used adds values to the table of contents and the body of the readme
+  // If used adds values to the table of contents and the body of the readme
   if (responses.install !== "") {
     contents += `
     * [Installation](#Installation)`;
@@ -52,7 +52,8 @@ function generateMarkdown(responses) {
     * [License](#License)`;
     licenseContents = `## License
 
-   ${responses.license}`;
+   ${responses.license} License.
+   For more information click the badge at the top of the page.`;
   }
 
   if (responses.contribute !== "") {
@@ -80,15 +81,15 @@ function generateMarkdown(responses) {
     * [Questions](#Questions)`;
     questionsContents = `## Questions
 
-   ${responses.questions}
-   ${responses.github}`;
+   For any questions please contact me at ${responses.questions}.
+   [![${responses.github}](https://api.github.com/users/${responses.github})]`;
   } else {
     questionsContents = "";
   }
 
   renderLicenseBadge(responses);
 
-// Template for the readme
+  // Template for the readme
   return `${licenseBadge}
 # ${responses.title}
 
