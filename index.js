@@ -35,7 +35,6 @@ const questions = [
     choices: [
       "MIT",
       "Apache",
-      "Academic",
       "GNU",
       "ISC",
       "Mozilla Public License",
@@ -92,11 +91,6 @@ async function init() {
   try {
     const responses = await inquirer.prompt(questions);
     console.log(responses);
-
-    // const title = responses.title;
-    // `${JSON.parse(JSON.stringify(responses.title))}`;
-
-    // const markdown = `# Title ${title}`;
 
     const markdown = generateMarkdown(responses);
 
