@@ -2,11 +2,11 @@
 # README Generator
 
 ## Table of Contents
-    * [Installation](#Installation)
-    * [Usage](#Usage)
-    * [License](#License)
-    * [Contributions](#Contributions)
-    * [Questions](#Questions)
+   * [Installation](#Installation)
+   * [Usage](#Usage)
+   * [License](#License)
+   * [Contributions](#Contributions)
+   * [Questions](#Questions)
 
 ## Description
 
@@ -36,7 +36,7 @@
   
 ## Usage
 
-   [![Video of Usage](./utils/readmeGenTest.gif)]
+   ![Video of Usage](./utils/readmeGenTest.gif)
 
 ## License
 
@@ -48,5 +48,5 @@
 
 ## Questions
 
-   [[Contact me](elusiveskies@gmail.com)]
+   [[Contact me](mailto:elusiveskies@gmail.com)]
    [[Elusiveskies](https://www.github.com/Elusiveskies)]
