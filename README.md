@@ -5,6 +5,7 @@
 ## Table of Contents
 
 - [Installation](#Installation)
+- [Technology](#Technology)
 - [Usage](#Usage)
 - [License](#License)
 - [Questions](#Questions)
@@ -28,6 +29,11 @@ The values available include the following:
 After the values have been added for each section a table of contents will be generated which,
 when clicked will take the user to that part of the readme. Finally the appropriate license badge
 will be created at the top of the page.
+
+## Technology
+
+- Javascript
+- Inquirer
 
 ## Installation
 
